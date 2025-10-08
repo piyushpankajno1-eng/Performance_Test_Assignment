@@ -31,4 +31,26 @@ Ensure the following are installed before running the tests:
 ---
 
 ## 🧩 Project Structure
+performance-testing/
+│
+├── scripts/ # Test scripts for different scenarios
+│ ├── load_test.jmx
+│ ├── stress_test.jmx
+│ └── spike_test.jmx
+│
+├── reports/ # Sample execution reports
+│ └── performance_report.html
+│
+├── ci-cd/ # CI/CD configuration files
+│ └── pipeline.yml
+│
+├── setup/ # Environment setup files (Docker, configs)
+│ ├── docker-compose.yml
+│ ├── env.properties
+│ └── setup_instructions.txt
+│
+└── README.md
 
+## Results & Reports
+- Raw results: `results/results.jtl`
+- HTML report: `report-html/index.html`
